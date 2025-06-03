@@ -35,12 +35,12 @@ split_words = sentence.split(',')
 print("'Python,is,awesome'.split(',') =", split_words)  # ['Python', 'is', 'awesome']
 
 # .sort() vs sorted()
-# - .sort(): sorts a list in place
-# - sorted(): returns a new sorted list
 print("\n.sort() vs sorted() example:")
 fruits = ['banana', 'apple', 'cherry']
+# - .sort(): sorts a list in place
 sorted_fruits = sorted(fruits)
 print("sorted(fruits) =", sorted_fruits)  # ['apple', 'banana', 'cherry']
+# - sorted(): returns a new sorted list
 fruits.sort()
 print("fruits after .sort() =", fruits)   # ['apple', 'banana', 'cherry']
 
